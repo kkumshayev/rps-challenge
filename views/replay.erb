@@ -1,0 +1,4 @@
+<div align='center'><%= "It is a draw" if session[:players_choice] == session[:cpu_choice] %></div>
+<form action='/play' align='center'>
+  <input type='submit' value='Try again' >
+</form>
